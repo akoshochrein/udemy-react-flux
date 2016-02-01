@@ -44,8 +44,9 @@ var ListManager = React.createClass({
                                 <button className="btn btn-primary">Add</button>
                             </div>
                         </form>
-                        <List items={this.state.items} />
                     </div>
+
+                    <List items={this.state.items} />
                 </div>
             </div>
         );
