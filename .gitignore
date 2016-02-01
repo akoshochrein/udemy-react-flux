@@ -2,3 +2,7 @@
 # Ingredients
 ingredients/node_modules
 ingredients/public/js/main.js
+
+# Ingredients styled
+ingredients-styled/node_modules
+ingredients-styled/public/js/main.js
