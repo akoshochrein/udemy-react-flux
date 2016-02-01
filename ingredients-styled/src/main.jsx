@@ -4,5 +4,15 @@ var React = require('react'),
 
 ReactDOM.render(
     <ListManager title="Ingredients" />,
-    document.getElementById('content')
+    document.getElementById('ingredients')
+);
+
+ReactDOM.render(
+    <ListManager title="ToDo" />,
+    document.getElementById('todo')
+);
+
+ReactDOM.render(
+    <ListManager title="Christmas" headingColor="#e52d27" />,
+    document.getElementById('christmas')
 );
